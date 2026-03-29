@@ -1,0 +1,51 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Mobile-first responsive design */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .container {
+        padding: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
